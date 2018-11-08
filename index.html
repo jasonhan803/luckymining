@@ -92,14 +92,14 @@
             <div class="block-body">
                 <form>
                     <div class="form-group">
-                        <label for="txtAmount">单次下注额</label>
+                        <label for="txtAmount">매번베팅금액</label>
                         <input type="text" class="form-control" id="txtAmount" placeholder="输入注数" value="0.2500 EOS">
                         <small id="txtAmountHelp" class="form-text text-muted">金额请修改为自己想投注金额数量，比如投10EOS，则输入“ 10.0000 EOS ”，注意小数点后需跟4位小数</small>
                     </div>
                     <div class="form-group">
-                        <button type="button" class="btn btn-success btn-sm" id="btnStart">开始</button>
-                        <button type="button" class="btn btn-danger btn-sm" id="btnStop" style="display:none">停止</button>
-                        <button type="button" class="btn btn-warning btn-sm" id="btnSetup">高级设置</button>
+                        <button type="button" class="btn btn-success btn-sm" id="btnStart">시작</button>
+                        <button type="button" class="btn btn-danger btn-sm" id="btnStop" style="display:none">정지</button>
+                        <button type="button" class="btn btn-warning btn-sm" id="btnSetup">기타설정</button>
                     </div>
                     <div class="form-group">
                         <small class="form-text text-muted">如果正在发牌，请等待。</small>
@@ -117,16 +117,16 @@
                         <label>게임통계：</label><span id="lbStatusList"></span>
                     </div>
                     <div class="form-group">
-                        <label>玩家牌面：</label><span id="playerstatus"></span>
+                        <label>유저카드：</label><span id="playerstatus"></span>
                     </div>
                     <div class="form-group">
-                        <label>庄家牌面：</label><span id="dealerstatus"></span>
+                        <label>딜러카드：</label><span id="dealerstatus"></span>
                     </div>
                     <div class="form-group">
-                        <label>已发指令：</label><span id="betactions"></span>
+                        <label>발송지령：</label><span id="betactions"></span>
                     </div>
                     <div class="form-group">
-                        <label>下个指令：</label><span id="preaction"></span>
+                        <label>다음지령：</label><span id="preaction"></span>
                     </div>
                     <div class="form-group">
                         <label>상태：</label><span id='lbScriptStatus'>대기중</span>
