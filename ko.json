@@ -1,0 +1,26 @@
+
+
+{
+	"sProcessing":   "처리중...",
+	"sLengthMenu":   "",
+	"sZeroRecords":  "일치한 결과가 없습니다",
+	"sInfo":         "_START_ 부터 _END_ 까지 결과，총 _TOTAL_",
+	"sInfoEmpty":    "0 부터 0 까지 결과，총 0",
+	"sInfoFiltered": "(_MAX_ 개 결과 필터됨)",
+	"sInfoPostFix":  "",
+	"sSearch":       "검색:",
+	"sUrl":          "",
+	"sEmptyTable":     "게임 결과가 없습니다",
+	"sLoadingRecords": "로딩중...",
+	"sInfoThousands":  ",",
+	"oPaginate": {
+		"sFirst":    "처음",
+		"sPrevious": "이전",
+		"sNext":     "다음",
+		"sLast":     "마지막"
+	},
+	"oAria": {
+		"sSortAscending":  ": 오름순으로 정렬",
+		"sSortDescending": ": 내림순으로 정렬"
+	}
+}
